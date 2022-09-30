@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="kwitter.css">
+        <script src="kwitter.js"></script>
+        <script src="kwitter_room.js"></script>
+        <title>Omega Chat</title>
+    </head>
+
+
+
+    <body>
+        <button id="logout" onclick="logout()" class="btn"> Log Out </button>
+        <center>
+            <br>
+            <br>
+            <h1 id="title">Omega Chat</h1>
+            <br>
+            <br>
+            <br>
+            <img src="Screenshot_2022-09-26_162220-removebg-preview.png" id="main_img" width="800" height="750">
+            <h3 id="subtitle">Let's chat, shall we?</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="div_whole">
+            <div id="div_login">
+            <h2> Log in to your account </h2>
+            <input id="user_name"  placeholder="Type your username in here" width="200">
+            <br>
+            <br>
+            <button id="submit_login" class="btn" onclick="addUser()"> Submit </button>
+            <br>
+            <label id="user_name_label"></label>
+            </div>
+            <br>
+            <br>
+            <div id="div_room">
+                <input id="room_name" placeholder="Type your room name here">
+                <br>
+                <br>
+                <button id="submit_room" class="btn" onclick="addRoom()"> Add Room </button>
+                <label id="room_name_label"></label>
+            </div>
+            </div>
+        </center>
+    </body>
+</html>

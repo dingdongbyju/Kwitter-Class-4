@@ -1,0 +1,32 @@
+html {
+    font-family: "Trebuchet MS";
+    background-color: rgb(255, 255, 255);
+    color:orangered;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#title {
+    color: navy;
+}
+
+#subtitle {
+    color: grey;
+}
+
+.btn {
+    width: 100px;
+    height: 75px;
+    background-color: orangered;
+    color:white;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+
+#user_name {
+    color: gray;
+    font-family: 'Trebuchet MS';
+}
